@@ -71,14 +71,15 @@ favoriteThings.book="Harry Potter";
 
 var backPack = {};
 var item = "firstPocket";
-backPack.firstPocket=item;
+backPack[item]="chapstick";
+backPack.color="Blue and White";
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+alert(backPack);
 
 
 /*
@@ -88,6 +89,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack);
 
 
 
@@ -111,7 +113,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name='Tyler S. McGinnis'
+user2.email='tyler.mcginnis@devmounta.in'
 
 
 ////////// EXTRA PRACTICE PROBLEMS BELOW //////////
@@ -123,7 +126,7 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection = {};
 
 
 /*
@@ -132,7 +135,9 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection.alertHello=function(){alert('hello');};
+methodCollection.logHello=function(){console.log('hello');
+};
 
 
 /*
@@ -140,7 +145,8 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 ////////// PROBLEM 6 //////////
