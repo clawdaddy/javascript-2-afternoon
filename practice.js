@@ -15,7 +15,10 @@
 */
 
 //Code here
-
+var me = {
+  name:"Kyle",
+  age:28,
+};
 
 
 ////////// PROBLEM 2 //////////
