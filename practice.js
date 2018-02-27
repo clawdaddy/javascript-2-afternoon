@@ -16,10 +16,10 @@
 
 //Code here
 var me = {
-  name:"Kyle",
+  name:"Hey sexy",
   age:28,
 };
-
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -29,7 +29,14 @@ var me = {
 */
 
 //Code here
-
+var favoriteThings={
+  band:"AJR",
+  food:"Ice Cream",
+  person:"Gandhi",
+  book:"The Way of Kings",
+  movie:"Lion",
+  holiday:"Halloween",
+};
 
 
 /*
@@ -38,14 +45,16 @@ var me = {
 
 //Code here
 
-
+favoriteThings.car="Outlander"
+favoriteThings.brand="Adidas"
 
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food="Chicken Nuggets";
+favoriteThings.book="Harry Potter";
 
 
 ////////// PROBLEM 3 //////////
@@ -60,7 +69,9 @@ var me = {
 
 //Code here
 
-
+var backPack = {};
+var item = "firstPocket";
+backPack.firstPocket=item;
 
 /*
   After you do the above, alert your entire backPack object.
